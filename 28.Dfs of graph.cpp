@@ -10,3 +10,10 @@ void dfs(int node,vector<int> adj[],int vis[],vector<int> &ks)
           }
       }
   }
+vector<int> dfsOfGraph(int V, vector<int> adj[]) {
+       int vis[V]={0};
+       int start=0;
+       vector<int> ks;
+       dfs(start,adj,vis,ks);
+       return ks;
+    }
