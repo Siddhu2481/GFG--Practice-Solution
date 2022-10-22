@@ -6,8 +6,4 @@ unordered_map<int,int> mp;
             mp[x]++;
         }
     }
-    if(mp.size()!=0)
-    {
-        return mp[x];
-    }
-    return 0;
+   
