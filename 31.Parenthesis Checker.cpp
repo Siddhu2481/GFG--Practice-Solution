@@ -12,5 +12,9 @@ stack<char> st;
              else if(top=='[' && x[i]==']'){
                  st.pop();
              }
-             
+             else{
+                 st.push(x[i]);
+             }
+         }
+         return st.empty();
        
