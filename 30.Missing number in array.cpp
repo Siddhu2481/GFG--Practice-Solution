@@ -8,4 +8,7 @@ class Solution{
          {
              total+=i;
              total-=array[i-2];
-        
+         }
+         return total;
+    }
+};
