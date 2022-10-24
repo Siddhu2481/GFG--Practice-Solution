@@ -13,4 +13,6 @@ if(head==NULL || head->next==NULL || k==0)
             temp=temp->next;
             
         }
-        
+        head=temp->next;
+        temp->next=NULL;
+        return head;
