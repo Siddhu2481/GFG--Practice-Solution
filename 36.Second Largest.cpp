@@ -8,3 +8,5 @@ sort(arr,arr+n);
 	           return arr[i];
 	       }
 	 
+  }
+	   return -1;
